@@ -53,3 +53,14 @@
 
 5. **Conectar à Tabela:**
     - Utilize uma linguagem de programação e um driver de banco de dados para conectar-se à tabela e executar as operações CRUD de forma dinâmica.
+
+
+6. **db.js**
+import mysql from "mysql"
+
+export const db = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "1234",
+    database: "crud2"
+})
